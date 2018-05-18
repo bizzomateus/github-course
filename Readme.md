@@ -4,4 +4,4 @@ Estudo de Git
 
 Repositório de teste.
 
-Mais uma edição.
+Mais uma edição branch DEV.
