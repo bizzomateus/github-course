@@ -41,7 +41,7 @@ p {
 
 #greetting .bg-image {
     position: absolute;
-    background-image: #76d url("/img/architectural-design-architecture-city-361530.jpg");
+    background-image: url('/img/architectural-design-architecture-city-361530.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
