@@ -20,6 +20,7 @@ p {
 }
 
 .btn {
+    display: inline-block;
     background: #76d;
     color: #000;
     text-decoration: none;
@@ -29,7 +30,7 @@ p {
 }
 
 .btn:hover {
-    background: #eaeaea;
+    background: #ccc;
     color: #333;
 }
 
@@ -49,4 +50,13 @@ p {
     height: 450px;
     z-index: -1;
     opacity: 0.4;
+}
+
+#greetting h1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+#greetting .content-wrap {
+    padding: 0 1.5em;
 }
