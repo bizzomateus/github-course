@@ -8,7 +8,7 @@ O Git é um sistema de controle de versão distribuído que permite que várias 
 # Cicle
 ![GitLifecycle](https://user-images.githubusercontent.com/6115449/72635747-4f54cd00-393c-11ea-8067-a522695226df.png)
 
-## Recursos:
+## Recursos
 
 - [Documentação Oficial do Git](https://git-scm.com/doc): A documentação oficial fornece informações detalhadas sobre os comandos e conceitos do Git.
 - [Tutorial Git da Atlassian](https://www.atlassian.com/git/tutorials): A Atlassian oferece um tutorial abrangente que aborda desde os conceitos básicos do Git até os fluxos de trabalho avançados.
@@ -23,11 +23,11 @@ O Git é um sistema de controle de versão distribuído que permite que várias 
 >[!IMPORTANT]
 > [Wrinting readme tips](https://docs.github.com/en/get-started/writing-on-github): O primeiro documento acessado do git é o README, aprender a escrever é importante.
 
-## Key Points:
+## Key Points
 <details>
 <summary>
     
-#### 1. Compreendendo os conceitos básicos do Git:
+#### 1. Compreendendo os conceitos básicos do Git
 </summary>
 
     - Repositórios: Um repositório Git é onde seus arquivos e histórico de alterações são armazenados.
@@ -39,11 +39,10 @@ O Git é um sistema de controle de versão distribuído que permite que várias 
     - Merges: O merge é o processo de combinar as alterações de uma branch com outra,
         integrando-as ao código principal.
 </details>
-
 <details>
     <summary>
         
-#### 2. Ramificação e mesclagem:
+#### 2. Ramificação e mesclagem
 </summary>
     
     - Criar uma nova branch: Use o comando `git branch nome-da-branch`
@@ -53,12 +52,10 @@ O Git é um sistema de controle de versão distribuído que permite que várias 
     - Mesclar alterações de uma branch para outra: Use o comando `git merge nome-da-outra-branch`
         para mesclar as alterações de uma branch para outra.
 </details>
-
-
 <details>
     <summary>
     
-#### 3. Reverta alterações:
+#### 3. Reverta alterações
 </summary>
 
     - Desfazer um commit: Use o comando `git revert hash-do-commit`
@@ -66,11 +63,10 @@ O Git é um sistema de controle de versão distribuído que permite que várias 
     - Desfazer uma série de commits: Use o comando `git revert hash-ultimo-commit..hash-primeiro-commit`
         para desfazer uma série de commits, criando novos commits que desfazem as alterações.
 </details>
-
 <details>
     <summary>
         
-#### 4. Resolva conflitos de mesclagem:
+#### 4. Resolva conflitos de mesclagem
 </summary>
 
     - Identifique conflitos: Durante o processo de mesclagem, o Git pode detectar conflitos em arquivos
@@ -79,7 +75,7 @@ O Git é um sistema de controle de versão distribuído que permite que várias 
         Depois de resolver, adicione os arquivos modificados usando o comando `git add` e faça um commit.
 </details>
 
-## :mage_man: Recursos avançados do Git:
+## :mage_man: Recursos avançados do Git
   ```code
   git rebase
   ```
@@ -87,7 +83,7 @@ Permite reorganizar o histórico de commits, movendo-os para uma nova base. Isso
 <details open>
     <summary>
 
-### 1. Reorganizando commits em uma branch:
+### 1. Reorganizando commits em uma branch
 </summary>
 
 ````
@@ -101,7 +97,7 @@ Permite reorganizar o histórico de commits, movendo-os para uma nova base. Isso
 <details>
     <summary>
         
-### 2. Resolvendo conflitos durante o rebase:
+### 2. Resolvendo conflitos durante o rebase
 </summary>
 
 ```
@@ -124,7 +120,7 @@ O comando `git cherry-pick` permite copiar um commit específico de uma branch p
 
 Por exemplo, suponha que você tenha uma branch chamada "featureA" e outra branch chamada "featureB". Se você deseja aplicar um commit específico da branch "featureA" na branch "featureB", você pode usar o comando `git cherry-pick <hash-do-commit>`.
 
-#### Exemplo prático:
+#### Exemplo prático
 
 1. Identifique o hash do commit que você deseja copiar da branch "featureA".
 2. Verifique se você está na branch "featureB" usando o comando `git checkout featureB`.
