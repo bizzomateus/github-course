@@ -5,7 +5,7 @@
 
 O Git é um sistema de controle de versão distribuído que permite que várias pessoas colaborem em um projeto. Ele ajuda a rastrear as alterações feitas nos arquivos e facilita a colaboração e a fusão de código. O Git é amplamente utilizado no desenvolvimento de software e é essencial para gerenciar repositórios de código.
 
-# Cicle
+# :arrows_counterclockwise: Cicle
 ![GitLifecycle](https://user-images.githubusercontent.com/6115449/72635747-4f54cd00-393c-11ea-8067-a522695226df.png)
 
 ## Recursos
@@ -129,6 +129,21 @@ Por exemplo, suponha que você tenha uma branch chamada "featureA" e outra branc
 
 >[!CAUTION]
 > Lembrar de resolver conflitos de mesclagem que surgirem durante o processo de cherry-pick.
-    
 
 Praticar regularmente e trabalhar em projetos reais é essencial para ganhar experiência com o Git. Quanto mais você usar o Git, mais familiarizado e confortável se tornará com suas funcionalidades avançadas.
+
+
+### :books: Para mais referencias
+- [Tech Talk: Linus Torvalds on git](https://youtu.be/4XpnKHJAok8)
+- [ProGit Book](https://git-scm.com/book/en/v2)
+- [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages)
+- [GitFluence](https://gitfluence.com/)
+- [Github Emojis](https://github.com/ikatyang/emoji-cheat-sheet)
+- [GitIgnore: ](https://www.toptal.com/developers/gitignore/)
+- [Chocolatey](https://community.chocolatey.org/packages/git)
+- [Markdown](https://docs.github.com/pt/get-started/writing-on-github)
+- [My Octocat](https://myoctocat.com/)
+
+##
+<div align="center">Follow me at <a href="https://github.com/bizzome">bizzome</a>. Thanks :blue_heart:!!</div>
+
